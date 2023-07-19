@@ -1,1 +1,3 @@
-# svg-logo-maker
+# SVG-Logo-Maker
+
+Remove both dist and .vuepress/dist in .gitignore?
