@@ -29,4 +29,7 @@ inquirer
     ])
     .then((answers) => {
         console.log(answers);
+        fs.writeFile('logo.svg', `${answers.logoText}`, (err) =>
+            err ? console.error(err) : console.log('Generated logo.svg')
+        );
     })
