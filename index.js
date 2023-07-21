@@ -10,10 +10,6 @@ inquirer
             type: 'input',
             message: 'Enter 1-3 letters for your logo: ',
             name: 'logoText',
-            // validate: function(input) {
-            //     console.log(input);
-            //     return (input.length < 4) ?true:false
-            // }
         },
         {
             type: 'input',
