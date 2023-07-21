@@ -17,7 +17,7 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Pick a color for the logo text (keyword or hexidecimal number): ',
+            message: 'Pick a color for the logo text: ',
             name: 'logoTextColor',
         },
         {
@@ -28,7 +28,7 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Pick a color for the shape (keyword or hexidecimal number): ',
+            message: 'Pick a color for the shape: ',
             name: 'logoShapeColor',
         }
     ])
